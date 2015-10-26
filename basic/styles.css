@@ -1,0 +1,53 @@
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+.header a, .footer a {
+	color: #fff;
+}
+.header a {
+	color: #fff;
+	text-shadow: 1px 1px 2px #737373;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background: none;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #ffffff;
+	-webkit-box-shadow: 1px 1px 1px 1px #737373;
+	box-shadow: 1px 1px 1px 1px #737373;
+}
+
+.page .cover {
+	height: 300px;
+}
+
+@media (min-width: 768px) {
+
+	.header {
+		background: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	.nav li {
+	  border-bottom: 1px solid rgb(237, 235, 235);
+	}
+
+	.navbar-nav {
+	  margin-top: 0 !important;
+	  margin-bottom: 0 !important;
+	}
+
+}
+
+
